@@ -1,6 +1,6 @@
 # Usage
 
-Add styles to console.log
+Styled console-log function.  
 （console.logにスタイルを付与します。）
 
 ![sample.png](sample.png)
@@ -12,6 +12,8 @@ yarn add styled-console-log
 ```
 
 ```javascript
+import Log from 'styled-console-log'
+
 Log('something warnning message', 'warn')
 
 Log('something error message\n\nmultiple lines...', 'error')
