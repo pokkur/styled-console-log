@@ -31,3 +31,8 @@ Provided with 4 styles now.
 - __'error'__
 - __'info'__
 - __'success'__
+
+# Next
+
+- [ ] Customization features
+- [ ] Animate style
