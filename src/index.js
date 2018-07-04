@@ -1,9 +1,9 @@
 const Log = (ParaText = 'no message', ParaType = 'info', ParaUppercase = false) => {
     const types = {
-        warn: 'padding: 4px; border: 1px dashed #E91E63; background: rgba(233, 30, 99, 0.2); color: #E91E63;',
-        error: 'padding: 4px; border: 1px dashed #ff9800; background: rgba(255, 152, 0, 0.2); color: #ff9800;',
-        info: 'padding: 4px; border: 1px dashed #795548;  background: rgba(121, 85, 72, 0.2); color: #795548;',
-        success: 'padding: 4px; border: 1px dashed #2196f3; background: rgba(33, 150, 243, 0.2); color: #2196f3;'
+        warn: 'padding: 4px; border: 1px dashed #863; background: #ffe; color: #863;',
+        error: 'padding: 4px; border: 1px dashed #a44; background: #fdd; color: #a44;',
+        info: 'padding: 4px; border: 1px dashed #337;  background: #ccf; color: #337;',
+        success: 'padding: 4px; border: 1px dashed #373; background: #cfc; color: #373;'
     }
 
     let style
